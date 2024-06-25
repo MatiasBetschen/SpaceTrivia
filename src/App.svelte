@@ -9,7 +9,7 @@
 
 </script>
 
-<main>
+<main class="main">
   {#if $state==0}
     <Home/>
   {:else if $state==1}
@@ -17,11 +17,18 @@
   {:else}
     <End/>
   {/if}
-
-  
-
-  
 </main>
+<div class="versiontext">v0.1</div>
+  <div>Made with 🤍 by Matias</div>
+  <div>Images taken from NASA | </div>
 
 <style>
+  .versiontext{
+    font-family: monospace;
+  }
+  .main{
+    
+    min-height:100vh;
+
+  }
 </style>
