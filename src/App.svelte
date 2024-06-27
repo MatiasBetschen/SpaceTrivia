@@ -1,6 +1,4 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
   import Home from './lib/Home.svelte'
   import Game from './lib/Game.svelte'
   import End from './lib/End.svelte'
@@ -18,9 +16,9 @@
     <End/>
   {/if}
 </main>
-<div class="versiontext">v0.1</div>
+<div class="versiontext">v0.5</div>
   <div>Made with 🤍 by Matias</div>
-  <div>Images taken from NASA | </div>
+  <div>If images are slow to load, run through game once to preload</div>
 
 <style>
   .versiontext{

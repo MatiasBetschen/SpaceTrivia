@@ -5,3 +5,4 @@ export const result = writable(0);
 export const time = writable(0);
 export const penaltycount = writable(0);
 export const startCounter = writable(false);
+export const error=writable([]);
